@@ -28,8 +28,14 @@ h1{
 h3{
     color: #363958;
 }
-h4{
-    font-size: 60px;
+h4{ 
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+h5{
+    text-align: center;
+    font-size: 20px;
     font-family: 'Bebas Neue', cursive;
 }
 .orange-highlight{
@@ -68,7 +74,8 @@ section{
         float: left;
         margin-left: 30px;
         margin-top: 10px;
-        padding-left: 2px;
+        padding-left: 10px;
+        padding-bottom: 10px;
         box-shadow: 10px 5px 70px gray;
         height: 70%;
         border-radius: 20px;
@@ -81,13 +88,15 @@ section{
     position: relative;
 }
 .inquiry-area img{
-    width: 100%; 
+    width: 80%; 
     margin-top: 100px;
+    margin-left: 150px;
 }
 .inquiry-text{
     position: absolute;
     top: 40%;
     padding: 50px;
+    margin-left: 200px;
 }
 .inquiry-text h2{
     font-size: 40px;
@@ -98,6 +107,19 @@ section{
 }
 .inquiry-text a{
     position: relative;
-    left:1000px ;
+    left:700px ;
     bottom: 80px;
+}
+.nav2 ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding-left: 25px;
+}
+.nav2 li{
+    display: inline-block;
+}
+.nav2 img{
+    width: 25px;
+    padding: 12px;
 }
